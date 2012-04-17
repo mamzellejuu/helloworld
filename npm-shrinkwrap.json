@@ -1,0 +1,54 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": {
+      "version": "3.0.0alpha1",
+      "dependencies": {
+        "connect": {
+          "version": "2.1.2",
+          "dependencies": {
+            "qs": {
+              "version": "0.4.2"
+            },
+            "mime": {
+              "version": "1.2.4"
+            },
+            "formidable": {
+              "version": "1.0.9"
+            },
+            "crc": {
+              "version": "0.1.0"
+            }
+          }
+        },
+        "commander": {
+          "version": "0.5.2"
+        },
+        "mime": {
+          "version": "1.2.5"
+        },
+        "mkdirp": {
+          "version": "0.3.1"
+        },
+        "debug": {
+          "version": "0.6.0"
+        }
+      }
+    },
+    "jade": {
+      "version": "0.24.0",
+      "dependencies": {
+        "commander": {
+          "version": "0.5.2"
+        },
+        "mkdirp": {
+          "version": "0.3.0"
+        }
+      }
+    },
+    "dali": {
+      "version": "1.0.3"
+    }
+  }
+}
