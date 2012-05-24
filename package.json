@@ -8,7 +8,8 @@
   "dependencies": {
     "express": "3.0.0alpha1",
     "jade": "*",
-    "dali": "1.x"
+    "dali": "1.x",
+    "ready.js": "1.x"
 
   }
 }
