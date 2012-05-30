@@ -1,1 +1,6 @@
-<div>{{out item.title /}}</div>
+<h3>{{out item.title /}}</h3>
+<ul>
+    {{ each item.results }}
+        <li>{{ out item.text /}}</li>
+    {{ endeach }}
+</ul>
